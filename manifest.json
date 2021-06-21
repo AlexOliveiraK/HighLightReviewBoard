@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name":"Hightlight to ReviewBoard",
+  "version": "1.0",
+  "description": "Highlight selected word on double-click event",
+  "author": "Alex de Oliveira Kosmalsky",
+  "icons": {
+    "128": "iconRB-128.png",
+    "48": "iconRB-48.png",
+    "16": "iconRB-16.png"
+  },
+  "content_scripts":[
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ]
+}
